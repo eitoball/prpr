@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "sinatra"
-  spec.add_dependency "octokit"
+  spec.add_dependency "octokit", ">= 3.2.0"
   spec.add_dependency "hashie"
 
   spec.add_development_dependency "bundler", "~> 1.10"
